@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{770A2870-DDFD-4FE3-99BE-2F747491DD7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA4F81EE-AB7E-41A8-915D-2AB9D59338CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log.elmahbucket.io", "src\log.elmahbucket.io\log.elmahbucket.io.csproj", "{1279A030-5A70-423C-BA46-3D346BF7012C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1279A030-5A70-423C-BA46-3D346BF7012C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1279A030-5A70-423C-BA46-3D346BF7012C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1279A030-5A70-423C-BA46-3D346BF7012C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1279A030-5A70-423C-BA46-3D346BF7012C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1279A030-5A70-423C-BA46-3D346BF7012C}.Staging|Any CPU.ActiveCfg = Release|Any CPU
+		{1279A030-5A70-423C-BA46-3D346BF7012C}.Staging|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1279A030-5A70-423C-BA46-3D346BF7012C} = {770A2870-DDFD-4FE3-99BE-2F747491DD7D}
+	EndGlobalSection
+EndGlobal
