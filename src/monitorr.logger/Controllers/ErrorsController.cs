@@ -55,6 +55,7 @@ namespace monitorr.logger.Controllers
             model.Form = model.Form.RemoveInvalidCharacters();
             model.ServerVariables = model.ServerVariables.RemoveInvalidCharacters();
             model.QueryString = model.QueryString.RemoveInvalidCharacters();
+            model.CustomData = model.CustomData.RemoveInvalidCharacters();
         }
     }
 }
