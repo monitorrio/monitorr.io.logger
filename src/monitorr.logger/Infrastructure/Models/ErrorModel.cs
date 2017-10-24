@@ -25,5 +25,6 @@ namespace monitorr.logger.Infrastructure.Models
         public Dictionary<string, string> QueryString { get; set; }
         public Dictionary<string, string> Form { get; set; }
         public Dictionary<string, string> Cookies { get; set; }
+        public Dictionary<string, string> CustomData { get; set; }
     }
 }

@@ -28,6 +28,7 @@ namespace monitorr.logger.Infrastructure.Extensions
                 Url = model.Url,
                 Severity = model.Severity,
                 Method = model.Method,
+                CustomData = model.CustomData
             };
 
             return entity;
